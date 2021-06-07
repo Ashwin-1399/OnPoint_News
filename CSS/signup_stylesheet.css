@@ -1,0 +1,211 @@
+nav {
+  background-color: #dddddd;
+}
+
+nav a {
+  width: 8%;
+  display: inline-block;
+  margin: 4px 4px 3px 8px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+nav a:first-child {
+  margin-left: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.active {
+  background: #fbfafa; /*light white color*/
+}
+
+nav a:hover {
+  background: #607d8b52;
+}
+
+a>button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 20px;
+  margin-right: 16px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+}
+.news-logo {
+  font-family: fontawesome;
+  text-decoration: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 37px;
+  letter-spacing: 3px;
+  color: #555555;
+  display: block;
+  position: absolute;
+  top: 17px;
+  line-height: 50px;
+}
+.dotcom {
+  color: #4caf50;
+}
+
+.row {
+  display: flex;
+  padding: 11px 11px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  margin-right: 42px;
+  border: 1px solid #000000;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: lighter;
+  padding-left: 11px;
+}
+p {
+  font-family: Verdana, sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 15px;
+  padding: 11px 11px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: auto;
+  margin: 0%;
+  padding: 10px 10px;
+  border-radius: 0px;
+  text-align: left;
+}
+.dropdown-content a:first-child {
+  margin-left: 0%;
+}
+.dropdown-content a:hover {
+  background: #dddddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+
+  margin: 0;
+}
+
+.drop {
+  display: unset;
+}
+h4 {
+  text-align: end;
+  font-style: oblique;
+}
+label,
+input,
+button {
+  border: 0;
+  margin-bottom: 3px;
+  display: block;
+  height: 5%;
+  font-size: larger;
+  padding: 5px;
+  margin-left: 5px;
+}
+label {
+  margin: 0%;
+  color: #444548;
+}
+input {
+  width: 98%;
+  border: 1px solid #b9b3b3;
+}
+h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #35363a;
+}
+.signUpButton {
+  color: white;
+  background-color: #06ad0d; /* Green */
+  padding: 10px;
+  border-radius: 4px;
+  height: 45px;
+  width: 98%;
+  border: 1px solid #076b0b;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../Images/signup.jpg");
+}
+
+.container {
+  padding: 16px;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 40px;
+  border: 3px solid #07ad90;
+  align-content: center;
+}
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  width: auto;
+}

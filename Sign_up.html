@@ -1,0 +1,63 @@
+<html>
+ <head>
+  <title> Registration page for news site </title>
+  <link rel="stylesheet" href="css/signup_stylesheet.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+ </head>
+ 
+ <body>
+ <header>
+        <div>
+            <a class="news-logo" href="#">Onpoint News</a>
+            <a href="#"><button type="button">Login</button></a>
+            <a href="Sign_up.html"> <button type="button">Sign up</button></a>
+            <br><br><br><br>
+        </div>
+        <nav> 
+            <a href="Home.html">Home</a>
+	        <a href="Coronavirus.html">Coronavirus</a>
+	        <a href="National.html">National</a>
+            
+            
+            <div class="dropdown">
+                <a href="" class=" drop">Cities</a>
+                <div class="dropdown-content">
+                    <a href="Maharashtra.html">Maharashtra</a>
+                    <a href="Mumbai.html">Mumbai</a>
+                    <a href="Karnataka.html">Karnataka</a>
+                </div>
+            </div>
+
+ 
+            <a href="OnThisDay.html">On this day</a>
+	        <a href="Science.html">Science</a>
+	        <a href="Technology.html">Technology</a>
+	        <a href="Education.html">Education</a>
+            <a href="Finance.html">Finance</a>
+        </nav>
+    </header>
+  <form action="" name="registration" id="registrationForm">
+    <div class="container">
+      <h2>Sign Up</h2>
+      <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="abc@gmail.com"/>
+    <br>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"/>
+    <br>
+	
+	<label for="phnno">Phone Number</label>
+	<input type="number" name="phnno" id="phnno">
+  <br>
+  <br>
+    <button type="submit" id="register" class="signUpButton">Sign up</button>
+     </div>
+  </form>
+  
+  <script src="Jquery/signup.js"></script>
+</body>
+</html>
